@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  font-family: Palatino, Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+#menu {
+  width: 140px;
+  text-align: center;
+}
+#menu,
+#menu ul,
+#menu ul li,
+#menu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  color: #666666;
+}
+#menu > ul > li > a {
+  padding: 10px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+#menu > ul > li > a:hover,
+#menu > ul > li.active > a,
+#menu > ul > li.open > a {
+  color: #000000;
+  background-color: #dddddd;
+}
+#menu ul > li:first-child {
+  border-bottom: 1px solid #cccccc;
+}
